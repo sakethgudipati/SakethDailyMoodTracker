@@ -1,0 +1,40 @@
+.reports-route {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  background-size: cover;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 150px;
+  padding-top: 60px;
+}
+.reports-head {
+  color: white;
+  margin-top: 35px;
+  margin-bottom: 40px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.overall-report-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .overall-report-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+.heading-and-filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.month-options {
+  width: 120px;
+  height: 32px;
+  padding: 4px 12px 4px 12px;
+  border-radius: 9px;
+  outline: none;
+}

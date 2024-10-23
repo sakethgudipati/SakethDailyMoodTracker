@@ -1,0 +1,33 @@
+.emoji-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 5px;
+}
+.emoji-name {
+  width: 89px;
+  height: 19px;
+  top: 68px;
+  left: 48px;
+  gap: 0px;
+  opacity: 0px;
+  angle: -0 deg;
+  text-align: center;
+}
+.emoji-url {
+  height: 50px;
+  width: 50px;
+}
+.active-emoji-url {
+  height: 70px;
+  width: 70px;
+  box-shadow: 0px -3px 24px 0px #ffffff36;
+  box-shadow: 0px 2px 8px 0px #f7f7f712;
+  border-radius: 100px;
+}
+.active-head {
+  font-size: 17px;
+  font-weight: bold;
+}

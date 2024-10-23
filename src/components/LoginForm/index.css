@@ -1,0 +1,99 @@
+.login-background-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  background-size: cover;
+  padding: 100px;
+  margin: 0px;
+  min-height: 100vh;
+}
+.login-heading {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+@media screen and (max-width: 768px) {
+  .login-background-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  .login-heading {
+    font-size: 19px;
+  }
+  .login-container {
+    width: 500px;
+    padding: 10px;
+  }
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+.login-container {
+  background-color: #242231;
+  border-radius: 20px;
+  padding: 30px;
+  margin-left: 250px;
+  margin-right: 250px;
+  box-shadow: 5px 5px 5px #504e57;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.input-element {
+  padding: 12px;
+  outline: none;
+  border-width: 0px;
+  border-radius: 20px;
+}
+.label-element {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.checkbox-element {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 5px;
+  accent-color: rgba(183, 183, 49, 0.76);
+  height: 18px;
+  width: 30px;
+}
+.login-button {
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: yellow;
+  color: black;
+  border-width: 0px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.error-message {
+  color: red;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+@media only screen and (max-width: 700px) {
+  .login-background-container {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+}

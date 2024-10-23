@@ -1,0 +1,55 @@
+.edit-component-container {
+  background-image: linear-gradient(
+    142.42deg,
+    rgba(114, 104, 117, 0.21) 1.79%,
+    rgba(117, 116, 117, 0) 100.42%
+  );
+  box-shadow: 6.82px 6.82px 16.37px 0px #51515166 inset;
+  box-shadow: -6.82px -6.82px 20.46px 0px #28262675 inset;
+  border-radius: 25px;
+  padding: 40px;
+  width: 570px;
+  height: 434px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.emoji-name-list {
+  width: 207px;
+  height: 40px;
+  padding: 9px 13px 9px 13px;
+  gap: 0px;
+  border-radius: 8px;
+  justify-content: space-between;
+  opacity: 0px;
+  background-color: #42404d;
+  color: white;
+  border: 1px solid #4e5d72;
+  margin: 5px;
+  outline: none;
+}
+
+.day-name-list {
+  width: 207px;
+  height: 40px;
+  padding: 9px 13px 9px 13px;
+  gap: 0px;
+  border-radius: 8px;
+  justify-content: space-between;
+  opacity: 0px;
+  background-color: #42404d;
+  color: white;
+  border: 1px solid #4e5d72;
+  margin: 5px;
+  outline: none;
+}
+.date-display {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.edit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}

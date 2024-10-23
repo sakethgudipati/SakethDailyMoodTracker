@@ -1,0 +1,25 @@
+.month-item {
+  display: flex;
+  flex-direction: column;
+}
+.part1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.days-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.dates-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.arrow-icon {
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+}
